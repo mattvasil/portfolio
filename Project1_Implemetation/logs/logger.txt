@@ -1,0 +1,47 @@
+INFO : 2021-08-23 22:21:53 : The table was read
+INFO : 2021-08-23 22:22:11 : The table was read
+INFO : 2021-08-23 22:23:25 : The table was read
+INFO : 2021-08-23 22:23:31 : The table was read
+INFO : 2021-08-23 22:23:31 : The table was read
+INFO : 2021-08-23 22:24:30 : A record was inserted
+INFO : 2021-08-23 22:24:30 : A record was inserted
+INFO : 2021-08-23 22:24:30 : A record was inserted
+INFO : 2021-08-23 22:25:29 : The table was read
+INFO : 2021-08-23 22:25:29 : The table was read
+INFO : 2021-08-23 22:25:29 : The table was read
+INFO : 2021-08-23 22:25:29 : The table was read
+ERROR : 2021-08-23 22:31:36 : [Ljava.lang.StackTraceElement;@2098d37d
+ERROR : 2021-08-23 22:42:15 : ID key already exists
+INFO : 2021-08-23 22:43:34 : The table was read
+ERROR : 2021-08-23 22:44:07 : [Ljava.lang.StackTraceElement;@3ac04654
+INFO : 2021-08-23 22:44:08 : The table was read
+INFO : 2021-08-23 22:45:39 : A record was inserted
+INFO : 2021-08-23 22:46:03 : The table was read
+ERROR : 2021-08-24 10:09:22 : [Ljava.lang.StackTraceElement;@39109136
+INFO : 2021-08-24 10:09:24 : The table was read
+ERROR : 2021-08-24 10:10:30 : [Ljava.lang.StackTraceElement;@68980fee
+INFO : 2021-08-24 10:11:39 : A record was inserted
+INFO : 2021-08-24 10:20:37 : The table was read
+INFO : 2021-08-24 10:20:51 : The table was read
+ERROR : 2021-08-24 10:21:03 : ID key already exists
+ERROR : 2021-08-24 10:21:03 : ID key already exists
+ERROR : 2021-08-24 11:05:02 : [Ljava.lang.StackTraceElement;@6b760460
+INFO : 2021-08-24 11:05:04 : The table was read
+INFO : 2021-08-24 11:21:10 : Record was deleted
+INFO : 2021-08-24 11:21:13 : The table was read
+INFO : 2021-08-24 11:21:48 : Record does not exist
+INFO : 2021-08-24 11:21:48 : Record does not exist
+INFO : 2021-08-24 11:21:54 : The table was read
+INFO : 2021-08-24 11:21:54 : The table was read
+ERROR : 2021-08-24 11:26:24 : [Ljava.lang.StackTraceElement;@67403656
+INFO : 2021-08-24 11:26:25 : The table was read
+ERROR : 2021-08-24 11:26:30 : [Ljava.lang.StackTraceElement;@796065aa
+INFO : 2021-08-24 11:26:32 : The table was read
+ERROR : 2021-08-24 11:29:27 : [Ljava.lang.StackTraceElement;@7100d66a
+INFO : 2021-08-24 11:29:37 : The table was read
+ERROR : 2021-08-24 11:30:17 : [Ljava.lang.StackTraceElement;@32f5ea72
+ERROR : 2021-08-24 11:30:17 : [Ljava.lang.StackTraceElement;@32f5ea72
+INFO : 2021-08-24 11:30:25 : The table was read
+INFO : 2021-08-24 11:30:25 : The table was read
+ERROR : 2021-08-24 11:33:04 : [Ljava.lang.StackTraceElement;@15bb522a
+INFO : 2021-08-24 11:33:30 : The table was read

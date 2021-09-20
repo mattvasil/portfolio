@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ORMDeleter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MavenProject1</a> &gt; <a href="index.source.html" class="el_package">com.revature.Delete</a> &gt; <span class="el_source">ORMDeleter.java</span></div><h1>ORMDeleter.java</h1><pre class="source lang-java linenums">package com.revature.Delete;
+
+import com.revature.util.ConnectionFactory;
+
+import java.sql.SQLException;
+import java.sql.Statement;
+
+<span class="nc" id="L8">public class ORMDeleter {</span>
+
+    public static boolean deleteHero(int id) {
+<span class="nc" id="L11">        int success = 0;</span>
+
+        try{
+
+<span class="nc" id="L15">            String sql = &quot;DELETE from heroes where id = &quot; + id;</span>
+
+<span class="nc" id="L17">            Statement stmt = ConnectionFactory.getConnection().createStatement();</span>
+<span class="nc" id="L18">            success = stmt.executeUpdate(sql);</span>
+
+<span class="nc" id="L20">        } catch (SQLException e) {</span>
+<span class="nc" id="L21">            e.printStackTrace();</span>
+<span class="nc" id="L22">        }</span>
+<span class="nc bnc" id="L23" title="All 2 branches missed.">        return success == 1;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

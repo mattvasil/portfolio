@@ -1,0 +1,6 @@
+com\revature\Create\ORMCreator.class
+com\revature\Delete\ORMDeleter.class
+com\revature\models\Hero.class
+com\revature\Read\ORMReader.class
+com\revature\Update\ORMUpdater.class
+com\revature\util\ConnectionFactory.class
